@@ -3,13 +3,13 @@
 #### Note: make sure vagrant is installed on your host system
 
 ## Checkout source code
-In the current folder, checkout source code to parent folder
+In the current folder, checkout source code to the parent folder
 ```sh
 git clone https://github.com/drines-uc/hello_http.git ../hello_http
 ```
 If you checkout the source code to a different location or under a different name, make sure to modify the synced_folder in Vagrantfile to reflect the source code folder.
 ```sh
-config.vm.synced_folder "<source code location", "/hello_server"
+config.vm.synced_folder "<source code location>", "/hello_server"
 ```
 
 ## Start VM to build and run hello server
