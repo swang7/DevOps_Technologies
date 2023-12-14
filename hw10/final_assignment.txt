@@ -1,0 +1,31 @@
+1) What command will show all the docker containers running?
+docker container ls -a
+or
+docker ps -a
+
+2) What command is used to locally register a file change with git?
+git add <file>
+
+3) What command is used get the default Vagrantfile?
+vagrant init
+
+4) What command would be used to create and set your working tree to a branch called question_four?
+git checkout -b question_four
+
+5) What command would you use to interact with a container named question_five via bash?
+docker run -it question_five bash
+
+6) How would you start a compose session that was NOT logging to stdout?
+docker compose up -d 
+
+7) Write a single line bash function that would wait for any single character of user input.
+read -n 1
+
+8) What is an alternative to docker compose?
+Use terraform is an alternative to docker compose
+
+9) What is the github mascot?
+GitHub's mascot is an anthropomorphized “octocat” with five octopus-like arms. 
+
+10) What is one of the principles of DevOps?
+One of the principle is "shift left" which means to test early and test often, doing testing as early as possible.
